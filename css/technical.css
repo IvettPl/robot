@@ -1,0 +1,172 @@
+ .technical  .header{
+	background:  none;
+}
+
+.technical .header-content .title {
+	font-size:  30px;
+	line-height:  38px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.technical .header-content .form-wrap {
+	max-width:  775px;
+	width:  100%;
+	margin: 0 auto;
+}
+
+.technical .form-item-submit {
+	align-self: flex-end;
+	max-width:  260px;
+}
+
+.technical .form-item-submit button {
+	background: #fe500f;
+	max-width:  100%;
+	padding: 35px 10px;
+}
+
+.technical .form-input {
+	font-family: 'Questrial', Arial, sans-serif;
+	padding:0 15px;
+	font-size: 14px;	  
+	line-height: 14px;	 
+	height: 65px;	 
+	background: #fff;	 
+	color: #2B3644;	 
+	box-sizing: border-box;	 
+} 
+
+.technical .form-item--textarea {
+	height: 100%;
+}
+
+.technical .form-item--textarea textarea {
+	font-family: 'Questrial', Arial, sans-serif; 
+	background: #fff; 
+	font-size: 14px;	  
+	line-height: 14px;	 
+	padding: 15px;
+	box-sizing: border-box;	 
+	color: #2B3644;	 
+	height: 100%;
+}
+
+.technical .form-item {
+	border-bottom: 0;
+}
+
+.technical .form-block .column-item {
+	width: 30%;
+}
+
+.technical .form-block .column-item:last-child  {
+	width: 65%;
+}
+
+
+.form-item.form-item-phone {
+	margin-bottom: 0;
+}
+
+.technical .form-block {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.technical .questions-block {
+	padding: 70px 0;
+}
+
+.technical .questions-block-item p {
+	max-width: 760px;
+	width:  100%;
+}
+
+.technical .questions-block-item {
+	padding-right: 160px;
+}
+
+.technical .questions-block .title {
+	text-transform: uppercase;
+}
+.technical .questions-block-item span.arr {
+	right: 140px;
+}
+
+.technical .questions-block-item span.ok {
+	position:  absolute;
+	top: 50%;
+	right: 50px;
+	display:  block;
+	margin-top: -11px;
+}
+
+.technical .questions-block-item span.ok  img {
+	display:  block;
+}
+
+.questions-block-name {
+	font-family: 'Audiowide', Arial, sans-serif;  
+	font-size: 20px;
+	line-height: 25px;   
+	color: #8E8E8E;	
+	margin-bottom:  10px;
+}
+
+
+.search__field { 
+	max-width: 745px;
+	width: 100%; 
+	background: none;
+	position: relative;
+	display: flex;
+	margin-bottom:  60px;
+	box-sizing: border-box;		
+}
+
+.search__input {
+	padding:0 15px;
+	text-align:left;
+	border:0;
+	font-size:20px;
+	line-height: 65px;
+	background: transparent;
+	box-sizing: border-box; 
+	width: 100%;
+	color: #2B3644;
+	font-family: 'Questrial', Arial, sans-serif;  
+	border-top: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+}		 
+
+			
+.search__btn {
+	background: #FE500F;	
+	font-family: 'Audiowide', Arial, sans-serif;  	
+	font-size:22px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	max-width:  160px;
+	width:  100%;
+}
+
+
+
+@media(max-width: 768px) {
+	.technical .form-block .column  {
+		flex-direction: column;
+	}
+	.technical .form-block .column-item,
+	.technical .form-block .column-item:last-child {
+		width: 100%;
+	}
+	.form-item.form-item-phone {
+		margin-bottom: 25px;
+	}
+}
