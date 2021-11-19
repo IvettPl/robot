@@ -326,7 +326,11 @@ span.arr {
 
 .nav-item {
   box-sizing: border-box;
-  padding: 0 15px;
+  padding: 0 20px;
+}
+.nav-item:first-child {
+  box-sizing: border-box;
+  padding: 0 20px 0 0;
 }
 
 .nav-item.js-dropdown {
@@ -3427,7 +3431,7 @@ span.error {
   font-weight: 700;
   line-height: 20px;
   position: relative;
-  width: 100px;
+  width: 60px;
   cursor: pointer;
   text-transform: uppercase;
   color: #575a69;
@@ -4170,15 +4174,21 @@ span.error {
   .about-robots-slider-item p {
     font-size: 16px;
   }
+  .nav-item {
+    padding: 0 20px 0 10px;
+  }
+  .language {
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 850px) {
   .nav-item {
-    padding: 15px;
+    margin-bottom: 15px;
   }
 
   .nav-item.js-dropdown .dropdown-icn {
-    top: 20px;
+    top: 5px;
     right: 5px;
   }
 
